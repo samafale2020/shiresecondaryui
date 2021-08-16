@@ -129,7 +129,7 @@ h1s {
   z-index: 997;
   transition: all 0.5s;
   background: #fff;
-  top: 44px;
+  
 }
 
 #header.header-scrolled {
@@ -468,7 +468,7 @@ h1s {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 20px 0;
 }
 sections {
   padding: 10px 0;
