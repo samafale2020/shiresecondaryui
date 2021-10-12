@@ -1,0 +1,23 @@
+{
+  "name": "shiresecondaryui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samafale2020/shiresecondaryui.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samafale2020/shiresecondaryui/issues"
+  },
+  "homepage": "https://github.com/samafale2020/shiresecondaryui",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
