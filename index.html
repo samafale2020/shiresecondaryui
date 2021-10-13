@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title> Shire Jama'a School</title>
+  <title> Shire Jama'a Axmed School</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -27,7 +27,8 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
+<!-- jquery  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- =======================================================
   * Template Name: MyBiz - v4.3.0
   * Template URL: https://bootstrapmade.com/mybiz-free-business-bootstrap-theme/
@@ -71,7 +72,7 @@
 <br>
   
     <div class="hero-container">
-      <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div id="heroCarousel" data-bs-interval="5000" class="carousel slide lazy-load carousel-fade" data-bs-ride="carousel">
 
         <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
 
@@ -82,28 +83,28 @@
           <div class="img"><img class="d-block img-fluid" src="assets/img/slide/studentone.png" alt="First slide"></div>
         </div>
         <div class="carousel-item">
-          <div class="img"><img class="d-block img-fluid" src="assets/img/slide/studenttwo.png" alt="Second slide"></div>
+          <div class="img"><img class="d-block img-fluid" data-src="assets/img/slide/studenttwo.jpg" alt="Second slide"></div>
         </div>
         <div class="carousel-item">
-          <div class="img"><img class="d-block img-fluid" src="assets/img/slide/corousal1.png" alt="Second slide"></div>
+          <div class="img"><img class="d-block img-fluid" data-src="assets/img/slide/corousal1.jpg" alt="Second slide"></div>
         </div>
         <div class="carousel-item">
-          <div class="img"><img class="d-block img-fluid" src="assets/img/slide/grils.png" alt="Third slide"></div>
+          <div class="img"><img class="d-block img-fluid" data-src="assets/img/slide/grils.jpg" alt="Third slide"></div>
         </div>
         <div class="carousel-item">
-          <div class="img"><img class="d-block img-fluid" src="assets/img/slide/strive.png" alt="Third slide"></div>
+          <div class="img"><img class="d-block img-fluid" data-src="assets/img/slide/strive.png" alt="Third slide"></div>
         </div>
         <div class="carousel-item">
-          <div class="img"><img class="d-block img-fluid" src="assets/img/slide/arday.png" alt="Third slide"></div>
+          <div class="img"><img class="d-block img-fluid" data-src="assets/img/slide/arday.jpg" alt="Third slide"></div>
         </div>
         <div class="carousel-item">
-          <div class="img"><img class="d-block img-fluid" src="assets/img/slide/teachers.png" alt="Third slide"></div>
+          <div class="img"><img class="d-block img-fluid" data-src="assets/img/slide/teachers.jpg" alt="Third slide"></div>
         </div>
         <div class="carousel-item">
-          <div class="img"><img class="d-block img-fluid" src="assets/img/slide/vision and mission.png" alt="Third slide"></div>
+          <div class="img"><img class="d-block img-fluid" data-src="assets/img/slide/vision and mission.jpg" alt="Third slide"></div>
         </div>
         <div class="carousel-item">
-          <div class="img"><img class="d-block img-fluid" src="assets/img/slide/practical.png" alt="Third slide"></div>
+          <div class="img"><img class="d-block img-fluid" data-src="assets/img/slide/practical.jpg" alt="Third slide"></div>
         </div>
       </div>
   
@@ -122,8 +123,6 @@
   </section><!-- End Hero -->
 
   <main id="main">
-
-
 
 
 
@@ -148,7 +147,7 @@
 
         <div class="row content">
           <div class="col-md-4 mt-4" data-aos="fade-right">
-            <img src="assets/img/activities/charity.png" class="img-fluid" alt="">
+            <img src="assets/img/activities/pic1.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-md-8 pt-4" data-aos="fade-up">
             <h3> Sababihii Aas-aaska  Dugsiga </h3>
@@ -170,7 +169,7 @@
             <br>
             <br>
             <br>
-            <img src="assets/img/activities/better tomorrow.png" class="img-fluid" alt="">
+            <img data-src="assets/img/activities/pic2.jpg" class="img-fluid lazy" alt="">
           </div>
           <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
             <h3>  Gogal-xaarki Dugsiga</h3>
@@ -196,7 +195,7 @@
             <br>
           
           
-            <img src="assets/img/activities/design1.png" class="img-fluid" alt="">
+            <img data-src="assets/img/activities/design1.jpg" class="img-fluid lazy" alt="">
           </div>
           <div class="col-md-8 pt-5 " data-aos="fade-up">
             <h3> Hirgalintii Dugsiga </h3>
@@ -224,7 +223,7 @@
             <br>
             <br>
             <br>
-            <img src="assets/img/activities/better tomorrow.png" class="img-fluid" alt="">
+            <img data-src="assets/img/activities/pic3.jpg" class="img-fluid lazy" alt="">
           </div>
           <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
             <h3> Dayactirkii iyo Balaarintii Dugsiga  </h3>
@@ -249,7 +248,7 @@
             <br>
             <br>
   
-            <img src="assets/img/activities/design2.png" class="img-fluid" alt="">
+            <img data-src="assets/img/activities/design2.jpg" class="img-fluid lazy" alt="">
           </div>
           <div class="col-md-8 pt-5 " data-aos="fade-up">
             <h3> Hirgalintii Dugsiga Sare</h3>
@@ -314,7 +313,7 @@
             </div>
           </div>
   
-          <div class="image col-lg-6 order-1 order-lg-2" style='background-image: url("assets/img/activities/design3.png");'></div>
+          <div class="image col-lg-6 order-1 order-lg-2" style='background-image: url("assets/img/activities/design3.jpg");'></div>
         </div>
 
       </div>
@@ -429,11 +428,13 @@
         <div class="row">
           <div class="col-lg-12">
             <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">Dhamaan</li>
-              <li data-filter=".filter-app">Dhaqan</li>
+            
+              <li data-filter=".filter-app" class="filter-active" >Dhaqan</li>
               <li data-filter=".filter-card">Iskaashi</li>
               <li data-filter=".filter-web">sport</li>
               <li data-filter=".filter-primary">primary</li>
+              <li data-filter="*"  >Dhamaan</li>
+              
             </ul>
           </div>
         </div>
@@ -442,7 +443,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/activities/ac1-01.png" class="img-fluid" alt="">
+              <img src="assets/img/activities/ac1-01.png" class="img-fluid " alt="">
               <div class="portfolio-info">
                 <h4>Culture 1</h4>
                 <p>Culture</p>
@@ -470,7 +471,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/activities/act-03.png" class="img-fluid" alt="">
+              <img src="assets/img/activities/act-03.png" class="img-fluid " alt="">
               <div class="portfolio-info">
                 <h4>Culture 2</h4>
                 <p>Culture</p>
@@ -584,12 +585,12 @@
           
           <div class="col-lg-4 col-md-6 portfolio-item filter-primary">
             <div class="portfolio-wrap">
-              <img src="assets/img/activities/pic1.png" class="img-fluid" alt="">
+              <img src="assets/img/activities/pic1.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>image </h4>
                 <p>image</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/activities/pic1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="primary 3"><i class="ri-add-fill"></i></a>
+                  <a href="assets/img/activities/pic1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="primary 3"><i class="ri-add-fill"></i></a>
                  
                 </div>
               </div>
@@ -597,12 +598,12 @@
           </div>
           <div class="col-lg-4 col-md-6 portfolio-item filter-primary">
             <div class="portfolio-wrap">
-              <img src="assets/img/activities/pic2.png" class="img-fluid" alt="">
+              <img src="assets/img/activities/pic2.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>image </h4>
                 <p>image</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/activities/pic2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="primary 3"><i class="ri-add-fill"></i></a>
+                  <a href="assets/img/activities/pic2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="primary 3"><i class="ri-add-fill"></i></a>
                  
                 </div>
               </div>
@@ -610,39 +611,12 @@
           </div>
           <div class="col-lg-4 col-md-6 portfolio-item filter-primary">
             <div class="portfolio-wrap">
-              <img src="assets/img/activities/pic3.png" class="img-fluid" alt="">
+              <img src="assets/img/activities/pic3.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>image </h4>
                 <p>image</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/activities/pic3.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="primary 3"><i class="ri-add-fill"></i></a>
-                 
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-primary">
-            <div class="portfolio-wrap">
-              <img src="assets/img/activities/pic4.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>image </h4>
-                <p>image</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/activities/pic4.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="primary 3"><i class="ri-add-fill"></i></a>
-                 
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-primary">
-            <div class="portfolio-wrap">
-              <img src="assets/img/activities/pic5.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>image </h4>
-                <p>image</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/activities/pic5.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="primary 3"><i class="ri-add-fill"></i></a>
+                  <a href="assets/img/activities/pic3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="primary 3"><i class="ri-add-fill"></i></a>
                  
                 </div>
               </div>
@@ -651,49 +625,59 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-primary">
             <div class="portfolio-wrap">
-              <img src="assets/img/activities/teacher.png" class="img-fluid" alt="">
+              <img src="assets/img/activities/pic4.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>image </h4>
                 <p>image</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/activities/teacher.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="primary 3"><i class="ri-add-fill"></i></a>
+                  <a href="assets/img/activities/pic4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="primary 3"><i class="ri-add-fill"></i></a>
                  
                 </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-primary">
+            <div class="portfolio-wrap">
+              <img src="assets/img/activities/pic5.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-primary">
             <div class="portfolio-wrap">
-              <img src="assets/img/activities/design1.png" class="img-fluid" alt="">
+              <img src="assets/img/activities/teacher.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>image </h4>
-                <p>image</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/activities/design1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="primary 3"><i class="ri-add-fill"></i></a>
-                </div>
+               
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-primary">
             <div class="portfolio-wrap">
-              <img src="assets/img/activities/design2.png" class="img-fluid" alt="">
+              <img src="assets/img/activities/design1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-primary">
+            <div class="portfolio-wrap">
+              <img src="assets/img/activities/design2.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>image </h4>
                 <p>image</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/activities/design2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="primary 3"><i class="ri-add-fill"></i></a>
+                  <a href="assets/img/activities/design2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="primary 3"><i class="ri-add-fill"></i></a>
                  
                 </div>
               </div>
             </div>
           </div>
 
-
-
-
-
+    
 
         </div>
 
@@ -709,7 +693,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/ShiikAhmed.jpg" class="testimonial-img" alt="">
+                <img data-src="assets/img/testimonials/ShiikAhmed.jpg" class="testimonial-img lazy" alt="">
                 <h3>Ahmed Jama'a </h3>
                 <h4> School Manager &amp; Director</h4>
                 <p>
@@ -722,7 +706,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/GuledTesara.jpg" class="testimonial-img" alt="">
+                <img data-src="assets/img/testimonials/GuledTesara.jpg" class="testimonial-img lazy" alt="">
                 <h3>Guled Abdinasir</h3>
                 <h4>Principal</h4>
                 <p>
@@ -754,7 +738,7 @@
         <div class="row">
           <div class="col-lg-6 mt-4 mb-4 mt-lg-0">
            <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/Title/sacid.JPG" class="img-fluid" alt=""></div>
+              <div class="pic"><img data-src="assets/img/Title/sacid.JPG" class="img-fluid lazy" alt=""></div>
                <div class="member-info">
                   <h4>Abdirashid Saciid Maxamed</h4>
                   <span>2015-2016 &amp; Position 2</span>
@@ -775,7 +759,7 @@
 
           <div class="col-lg-6 mt-4 mt-lg-0">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/Title/Ahmed.JPG" class="img-fluid" alt=""></div>
+              <div class="pic"><img data-src="assets/img/Title/Ahmed.JPG" class="img-fluid lazy" alt=""></div>
                 <div class="member-info">
                   <h4>Ahmed Maxamed Maxamud</h4>
                   <span>2015-2016 &amp; Position 2</span>
@@ -796,7 +780,7 @@
         <div class="row">
           <div class="col-lg-6 mt-4 mb-4 mt-lg-0">
            <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/Title/Muqtal.JPG" class="img-fluid" alt=""></div>
+              <div class="pic"><img data-src="assets/img/Title/Muqtal.JPG" class="img-fluid lazy" alt=""></div>
                <div class="member-info">
                   <h4>Maxamed Maqtal Maxamud</h4>
                   <span>2015-2016 &amp; Position 4</span>
@@ -818,7 +802,7 @@
 
           <div class="col-lg-6 mt-4 mb-4 mt-lg-0">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/Title/mohamed.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img data-src="assets/img/Title/mohamed.jpg" class="img-fluid lazy" alt=""></div>
                 <div class="member-info">
                   <h4>Mohamed Abdinasir Sa'ed</h4>
                   <span>2020-2021 &amp; Position 9</span>
@@ -840,7 +824,7 @@
          <div class="row">
            <div class="col-lg-12 mt-4 mb-4 mt-lg-0">
               <div class="member d-flex align-items-start">
-                <div class="pic"><img src="assets/img/Title/mahad.jpg" class="img-fluid" alt=""></div>
+                <div class="pic"><img data-src="assets/img/Title/mahad.jpg" class="img-fluid lazy" alt=""></div>
                   <div class="member-info">
                     <h4>Mahad Abdirisack Mohamud </h4>
                     <span>2020-2021 &amp; Position 10</span>
@@ -911,6 +895,13 @@
           <h2>Kala Xiriir</h2>
           <p>Waxaad kala xiriirikartaa ciwaanada hoos ku qoran</p>
         </div>
+      </div>
+
+      <div class="map">
+        <!-- <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com///maps.googleapis.com/maps/api/js?v=3.45&client=google-maps-pro&language=en_GB&region=SO&libraries=places,visualization,geometry,search" frameborder="0" allowfullscreen></iframe> -->
+
+        <!-- //maps.googleapis.com/maps/api/js?v=3.45&client=google-maps-pro&language=en_GB&region=SO&libraries=places,visualization,geometry,search -->
+        <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
       </div>
 
       <div class="container">
@@ -1008,6 +999,46 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+  var lazyloadImages = document.querySelectorAll("img.lazy");    
+  var lazyloadThrottleTimeout;
+  
+  function lazyload () {
+    if(lazyloadThrottleTimeout) {
+      clearTimeout(lazyloadThrottleTimeout);
+    }    
+    
+    lazyloadThrottleTimeout = setTimeout(function() {
+        var scrollTop = window.pageYOffset;
+        lazyloadImages.forEach(function(img) {
+            if(img.offsetTop < (window.innerHeight + scrollTop)) {
+              img.src = img.dataset.src;
+              img.classList.remove('lazy');
+            }
+        });
+        if(lazyloadImages.length == 0) { 
+          document.removeEventListener("scroll", lazyload);
+          window.removeEventListener("resize", lazyload);
+          window.removeEventListener("orientationChange", lazyload);
+        }
+    }, 20);
+  }
+  
+  document.addEventListener("scroll", lazyload);
+  window.addEventListener("resize", lazyload);
+  window.addEventListener("orientationChange", lazyload);
+});
+
+$(function() {
+    $('.carousel.lazy-load').bind('slide.bs.carousel', function (e) {
+        var image = $(e.relatedTarget).find('img[data-src]');
+        image.attr('src', image.data('src'));
+        image.removeAttr('data-src');
+    });
+});
+  </script>
 
 </body>
 
