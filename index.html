@@ -24,11 +24,15 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 <!-- jquery  -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- lazy loaad libarary -->
+  <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
   <!-- =======================================================
   * Template Name: MyBiz - v4.3.0
   * Template URL: https://bootstrapmade.com/mybiz-free-business-bootstrap-theme/
@@ -83,28 +87,28 @@
           <div class="img"><img class="d-block img-fluid" src="assets/img/slide/studentone.jpg" alt="First slide"></div>
         </div>
         <div class="carousel-item">
-          <div class="img"><img class="d-block img-fluid" src="assets/img/slide/studenttwo.jpg" alt="Second slide"></div>
+          <div class="img"><img class="d-block img-fluid" data-src="assets/img/slide/studenttwo.jpg" alt="Second slide"></div>
         </div>
         <div class="carousel-item">
-          <div class="img"><img class="d-block img-fluid" src="assets/img/slide/corousal1.jpg" alt="Second slide"></div>
+          <div class="img"><img class="d-block img-fluid" data-src="assets/img/slide/corousal1.jpg" alt="Second slide"></div>
         </div>
         <div class="carousel-item">
-          <div class="img"><img class="d-block img-fluid" src="assets/img/slide/grils.jpg" alt="Third slide"></div>
+          <div class="img"><img class="d-block img-fluid" data-src="assets/img/slide/grils.jpg" alt="Third slide"></div>
         </div>
         <div class="carousel-item">
-          <div class="img"><img class="d-block img-fluid" src="assets/img/slide/strive.jpg" alt="Third slide"></div>
+          <div class="img"><img class="d-block img-fluid" data-src="assets/img/slide/strive.jpg" alt="Third slide"></div>
         </div>
         <div class="carousel-item">
-          <div class="img"><img class="d-block img-fluid" src="assets/img/slide/arday.jpg" alt="Third slide"></div>
+          <div class="img"><img class="d-block img-fluid" data-src="assets/img/slide/arday.jpg" alt="Third slide"></div>
         </div>
         <div class="carousel-item">
-          <div class="img"><img class="d-block img-fluid" src="assets/img/slide/teachers.jpg" alt="Third slide"></div>
+          <div class="img"><img class="d-block img-fluid" data-src="assets/img/slide/teachers.jpg" alt="Third slide"></div>
         </div>
         <div class="carousel-item">
-          <div class="img"><img class="d-block img-fluid" src="assets/img/slide/vision and mission.jpg" alt="Third slide"></div>
+          <div class="img"><img class="d-block img-fluid" data-src="assets/img/slide/vision and mission.jpg" alt="Third slide"></div>
         </div>
         <div class="carousel-item">
-          <div class="img"><img class="d-block img-fluid" src="assets/img/slide/practical.jpg" alt="Third slide"></div>
+          <div class="img"><img class="d-block img-fluid" data-src="assets/img/slide/practical.jpg" alt="Third slide"></div>
         </div>
       </div>
   
@@ -169,7 +173,7 @@
             <br>
             <br>
             <br>
-            <img src="assets/img/activities/pic2.jpg" class="img-fluid lazy" alt="">
+            <img data-src="assets/img/activities/pic2.jpg" class="img-fluid lazy" alt="">
           </div>
           <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
             <h3>  Gogal-xaarki Dugsiga</h3>
@@ -195,7 +199,7 @@
             <br>
           
           
-            <img src="assets/img/activities/design1.jpg" class="img-fluid lazy" alt="">
+            <img data-src="assets/img/activities/design1.jpg" class="img-fluid lazy" alt="">
           </div>
           <div class="col-md-8 pt-5 " data-aos="fade-up">
             <h3> Hirgalintii Dugsiga </h3>
@@ -223,7 +227,7 @@
             <br>
             <br>
             <br>
-            <img src="assets/img/activities/pic3.jpg" class="img-fluid lazy" alt="">
+            <img data-src="assets/img/activities/pic3.jpg" class="img-fluid lazy" alt="">
           </div>
           <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
             <h3> Dayactirkii iyo Balaarintii Dugsiga  </h3>
@@ -248,7 +252,7 @@
             <br>
             <br>
   
-            <img src="assets/img/activities/design2.jpg" class="img-fluid lazy" alt="">
+            <img data-src="assets/img/activities/design2.jpg" class="img-fluid lazy" alt="">
           </div>
           <div class="col-md-8 pt-5 " data-aos="fade-up">
             <h3> Hirgalintii Dugsiga Sare</h3>
@@ -694,7 +698,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/ShiikAhmed.jpg" class="testimonial-img lazy" alt="">
+                <img data-src="assets/img/testimonials/ShiikAhmed.jpg" class="testimonial-img lazy" alt="">
                 <h3>Ahmed Jama'a </h3>
                 <h4> School Manager &amp; Director</h4>
                 <p>
@@ -707,7 +711,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/GuledTesara.jpg" class="testimonial-img lazy" alt="">
+                <img data-src="assets/img/testimonials/GuledTesara.jpg" class="testimonial-img lazy" alt="">
                 <h3>Guled Abdinasir</h3>
                 <h4>Principal</h4>
                 <p>
@@ -739,7 +743,7 @@
         <div class="row">
           <div class="col-lg-6 mt-4 mb-4 mt-lg-0">
            <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/Title/sacid.JPG" class="img-fluid lazy" alt=""></div>
+              <div class="pic"><img data-src="assets/img/Title/sacid.JPG" class="img-fluid lazy" alt=""></div>
                <div class="member-info">
                   <h4>Abdirashid Saciid Maxamed</h4>
                   <span>2015-2016 &amp; Position 2</span>
@@ -760,7 +764,7 @@
 
           <div class="col-lg-6 mt-4 mt-lg-0">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/Title/Ahmed.JPG" class="img-fluid lazy" alt=""></div>
+              <div class="pic"><img data-src="assets/img/Title/Ahmed.JPG" class="img-fluid lazy" alt=""></div>
                 <div class="member-info">
                   <h4>Ahmed Maxamed Maxamud</h4>
                   <span>2015-2016 &amp; Position 2</span>
@@ -781,7 +785,7 @@
         <div class="row">
           <div class="col-lg-6 mt-4 mb-4 mt-lg-0">
            <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/Title/Muqtal.JPG" class="img-fluid lazy" alt=""></div>
+              <div class="pic"><img data-src="assets/img/Title/Muqtal.JPG" class="img-fluid lazy" alt=""></div>
                <div class="member-info">
                   <h4>Maxamed Maqtal Maxamud</h4>
                   <span>2015-2016 &amp; Position 4</span>
@@ -803,7 +807,7 @@
 
           <div class="col-lg-6 mt-4 mb-4 mt-lg-0">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/Title/mohamed.jpg" class="img-fluid lazy" alt=""></div>
+              <div class="pic"><img data-src="assets/img/Title/mohamed.jpg" class="img-fluid lazy" alt=""></div>
                 <div class="member-info">
                   <h4>Mohamed Abdinasir Sa'ed</h4>
                   <span>2020-2021 &amp; Position 9</span>
@@ -825,7 +829,7 @@
          <div class="row">
            <div class="col-lg-12 mt-4 mb-4 mt-lg-0">
               <div class="member d-flex align-items-start">
-                <div class="pic"><img src="assets/img/Title/mahad.jpg" class="img-fluid lazy" alt=""></div>
+                <div class="pic"><img data-src="assets/img/Title/mahad.jpg" class="img-fluid lazy" alt=""></div>
                   <div class="member-info">
                     <h4>Mahad Abdirisack Mohamud </h4>
                     <span>2020-2021 &amp; Position 10</span>
@@ -1001,6 +1005,45 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+  var lazyloadImages = document.querySelectorAll("img.lazy");    
+  var lazyloadThrottleTimeout;
+  
+  function lazyload () {
+    if(lazyloadThrottleTimeout) {
+      clearTimeout(lazyloadThrottleTimeout);
+    }    
+    
+    lazyloadThrottleTimeout = setTimeout(function() {
+        var scrollTop = window.pageYOffset;
+        lazyloadImages.forEach(function(img) {
+            if(img.offsetTop < (window.innerHeight + scrollTop)) {
+              img.src = img.dataset.src;
+              img.classList.remove('lazy');
+            }
+        });
+        if(lazyloadImages.length == 0) { 
+          document.removeEventListener("scroll", lazyload);
+          window.removeEventListener("resize", lazyload);
+          window.removeEventListener("orientationChange", lazyload);
+        }
+    }, 20);
+  }
+  
+  document.addEventListener("scroll", lazyload);
+  window.addEventListener("resize", lazyload);
+  window.addEventListener("orientationChange", lazyload);
+});
+
+$(function() {
+    $('.carousel.lazy-load').bind('slide.bs.carousel', function (e) {
+        var image = $(e.relatedTarget).find('img[data-src]');
+        image.attr('src', image.data('src'));
+        image.removeAttr('data-src');
+    });
+});
+  </script>
 
 </body>
 
